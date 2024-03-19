@@ -9,5 +9,7 @@ class Cast extends Model
 {
     use HasFactory;
 
+    public $table = 'cast';
+
     protected $fillable = ['nama', 'umur', 'bio'];
 }
