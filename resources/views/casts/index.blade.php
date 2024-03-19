@@ -29,7 +29,7 @@
                         <form action="{{ route('cast.destroy', $cast->id) }}" method="POST">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" onclick="return confirm('Are you sure?')">Delete</button>
+                            <button type="submit" onclick="return confirm('Apakah data nyakin dihapus?')">Delete</button>
                         </form>
                     </td>
                 </tr>
